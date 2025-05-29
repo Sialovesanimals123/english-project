@@ -1,0 +1,155 @@
+h1,h4{
+    font-size: 30px;
+    color: aliceblue;
+    font-family: "Playwrite DK Loopet", cursive;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+    text-align: center;
+}
+
+body{
+    background-image: linear-gradient(rgb(39, 100, 154), rgb(88, 158, 219), rgb(113, 171, 222), rgb(195, 225, 252), rgb(255, 255, 255));
+}
+
+h2{
+    font-size: 30px;
+    color: rgb(113, 171, 222);
+    font-family: "Playwrite DK Loopet", cursive;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+    text-align: center;
+}
+
+img{
+    width: 300px;
+    text-align: left;
+}
+
+.rating{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.rating h3{
+    margin:0;
+    color: #fff;
+    font-family: "Playwrite DK Loopet", cursive;
+
+}
+
+
+.bookrating{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.details{
+    padding-left: 20px;
+    padding-right: 50px;
+}
+.Summarytext{
+    text-align: justify;
+    color: rgb(94, 160, 218);
+    font-family: cursive;
+    font-size: 13px;
+}
+
+.rtext, .Summaryheading, .rheading{
+    text-align: justify;
+    color:white;
+    font-family: cursive;
+    font-size: 13px;
+}
+.Summaryheading, .rheading{
+    text-decoration: underline;
+    font-family: "Playwrite DK Loopet", cursive;
+    
+}
+#nextbutton1,#nextbutton2,#nextbutton3{
+    background-color:white;
+    margin-top: 20px;
+    color:rgb(88, 158, 219);
+    padding:10px;
+    border-radius: 30px;
+    font-weight: bold;
+    border-color:rgb(3, 55, 60) ;
+}
+a{
+    color: rgb(88, 158, 219);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+a{
+    text-align: center;
+}
+
+p{
+    text-align: center;
+    
+}
+
+.character{
+    display: flex;
+    align-items: center;
+    margin:20px;
+    gap: 20px;
+    
+}
+
+
+.character img{
+    height:auto;
+    width: 450px;
+    border-radius: 10px;
+}
+
+.character p{
+    max-width: 600px;
+    font-size: 15px;
+    line-height: 1.5;
+    text-align: justify;
+    padding-left: 50px;
+}
+#Elsach{
+   
+   color: #fff;
+    font-family: cursive;
+    font-size: 13px;
+}
+#Annach{
+    
+    color: rgb(94, 160, 218);
+    font-family: cursive;
+    font-size: 13px;
+}
+
+#history{
+    color: #fff;
+    font-family: cursive;
+    font-size: 13px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+
+#symbolism{
+     color: #fff;
+    font-family: cursive;
+    font-size: 13px;
+    padding-left: 50px;
+    padding-right: 50px;
+
+}
+
+footer{
+    background-color: #70b6f2;
+    text-align: center;
+    padding: 10px;
+    font-size: 14px;
+    color: #fafafa;
+   
+
+}
